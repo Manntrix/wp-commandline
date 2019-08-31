@@ -6,8 +6,8 @@ const pkg = require('../package.json');
 updateNotifier({pkg}).notify();
 
 if (!sh.which('php')) {
-    shell.echo('Sorry, this module requires php to be installed in your machine or check your environment variable.');
-    shell.exit(1);
+    sh.echo('Sorry, this module requires php to be installed in your machine or check your environment variable.');
+    sh.exit(1);
   }
   else{
     var args = process.argv.slice(2)
