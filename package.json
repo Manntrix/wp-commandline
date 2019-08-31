@@ -1,0 +1,21 @@
+{
+  "name": "wp-commandline",
+  "version": "1.0.0",
+  "description": "This will install wp-cli in your machine",
+  "main": "./bin/index.js",
+  "bin": {
+    "wp": "./bin/index.js",
+    "wpcli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": ["wp-cli", "wp", "wordpress", "wp commands"],
+  "author": "Manish Mandal",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "update-notifier": "^3.0.1"
+  }
+}
