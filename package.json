@@ -10,6 +10,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manntrix/wp-commandline"
+  },
   "preferGlobal": true,
   "keywords": ["wp-cli", "wp", "wordpress", "wp commands"],
   "author": "Manish Mandal",
